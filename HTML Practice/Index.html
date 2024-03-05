@@ -10,8 +10,17 @@
 <body>
     <header>
         <h1>William Gerry</h1>
+        <img src="/Images/Profile.jpg" alt="Profile image" width="200">
     </header>
 
+    <nav>
+        <h2>External Links</h2>
+        <ul>
+            <li><a href="https://w-gerry.github.io/Portfolio/#/">Portfolio</a></li>
+            <li><a href="https://github.com/W-Gerry">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/williamgerry/">LinkedIn</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
             <h2>Overview</h2>
@@ -33,16 +42,98 @@
         <section>
             <h2>Work Experience</h2>
             <div>
-                <h3>Cyber Security Consultant</h3>
-                <p></p>
+                <table>
+                    <caption>Employment History</caption>
+                    <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>From</th>
+                        <th>To</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Java Test Automation Engineer</td>
+                        <td>Sparta Global</td>
+                        <td>19/02/24</td>
+                        <td>Current</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Cyber Security Consultant</td>
+                        <td>Mazars UK</td>
+                        <td>12/05/22</td>
+                        <td>12/05/23</td>
+                    </tr>
+                    <tr>
+                        <td>Senior IT Assurance Consultant</td>
+                        <td>Mazars UK</td>
+                        <td>01/09/19</td>
+                        <td>12/05/22</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
         <section>
             <h2>Education</h2>
+            <div>
+                <table>
+                    <caption>Education History</caption>
+                    <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Completed</th>
+                    </tr>
+                    <tr>
+                        <td>ISTQB Foundation</td>
+                        <td>ISTQB</td>
+                        <td>04/03/2024</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>MSc Applied Data Analytics</td>
+                        <td>BPP University</td>
+                        <td>17/06/2023</td>
+                    </tr>
+                    <tr>
+                        <td>BSc Chemistry</td>
+                        <td>University of Leicester</td>
+                        <td>12/07/2017</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <section>
             <h2>Skills</h2>
+            <div>
+                <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                    <li>Consulting</li>
+                    <li>Client Project Management</li>
+                    <li>Cyber Risk Analysis</li>
+                    <li>ISTQB Foundation Certified</li>
+                </ul>
+            </div>
+        </section>
+        <section id="news-search">
+            <h2>News Search</h2>
+            <form method="get" action="http://www.bbc.co.uk/search">
+                <label for="search-term">Search term: </label>
+                <input type="text" id="search-term" name="q" value="London" />
+                <button type="submit">Search</button>
+            </form>
         </section>
     </main>
+
+    <footer>
+        <small>
+            Copyright &#169; W-Gerry 2024 <cite>by William Gerry</cite>
+        </small>
+    </footer>
 </body>
 </html>
